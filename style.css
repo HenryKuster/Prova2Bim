@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 1100vh;
+    width: 100vw; 
+    background-color: #b9faa1;
+}
+header{
+    height: 100px;
+    width: 100vw;
+    background-color: #85f368;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+#logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 4px;
+}
+.main{
+    width: 80vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+    margin-left: 250px;  
+}
+h1{
+    font-size: 50px;
+    margin: 25px;
+    background-color: #85f368;
+    border-radius: 15px;
+    padding: 5px;
+}
+h2{
+    font-size: 40px;
+    margin: 25px;
+    background-color: #85f368;
+    border-radius: 15px;
+    padding: 5px;
+}
+h3{
+    font-size: 30px;
+    margin: 25px;
+    background-color: #85f368;
+    border-radius: 15px;
+    padding: 5px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    width: 700px;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 10px;
+}
+footer{
+    height: 100px;
+    width: 98vw;
+    background-color: #85f368;
+    text-align: center;
+    border-radius: 10px;
+}
+.redes{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.btn{
+    border-radius: 5px;
+}
+.btn-whatsapp {
+    display: inline-block;
+    background-color: #25D366;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+.btn-instagram {
+    display: inline-block;
+    background-color: deeppink;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+.btn-github {
+    display: inline-block;
+    background-color: gray;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+.btn-linkedin {
+    display: inline-block;
+    background-color: #0077B5;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;  
+}
